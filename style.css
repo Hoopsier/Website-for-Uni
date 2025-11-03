@@ -4,6 +4,13 @@ body {
 h1 {
   color: blue;
   text-align: center;
+  font-size: 62px;
+}
+.imgbox{
+  text-align: center;
+  width: 250%;
+  margin-right: 50px;
+  background-color: #FFFFFFFF;
 }
 .center{
   align-items: center;
@@ -26,6 +33,17 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+.contentP{
+  padding-bottom: 0.2%;
+  padding-top: 0.2%;
+  padding-right:05%;
+  background-color: #00008080;
+}
+.navbarP{
+  border: 1px solid black;
+  display: flex;
+ justify-content: space-between;
+}
 ul {
   display: flex;
   list-style: none;
@@ -35,6 +53,10 @@ ul {
 }
 ul li {
   margin-right: 20px;
+}
+.prods{
+  display: flex;
+  justify-content: space-around;
 }
 .nav{
   flex: 1,0,40%;
@@ -46,5 +68,29 @@ ul li {
   padding: 10px;
   font-size: 1.5rem;
   color: #FFFFFFFF;
+}
+.banner{
+  padding: 10px;
+  width: 104%;
+}
+.left{
+  text-align: left;
+  padding-left: 10px;
+}
+.contactus{
+  width: 40%;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.stretch{
+  display:flex;
+  align-items: center;
+  text-align :center;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
 }
 
